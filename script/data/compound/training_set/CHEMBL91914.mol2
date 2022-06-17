@@ -1,0 +1,255 @@
+#	Created by:	Discovery Studio
+#	Creation time:	2018-10-05T09:03:34Z
+
+@<TRIPOS>MOLECULE
+CHEMBL91914
+   34    36     1 0 0
+PROTEIN
+USER_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 O1           18.474482    1.248371   51.999651 O.3      1 UNK       -0.5200
+      2 N2           18.894566    0.421432   52.979190 N.pl3    1 UNK        0.9070
+      3 O3           18.085373   -0.225152   53.529528 O.2      1 UNK       -0.5200
+      4 C4           20.259673    0.210778   53.467505 C.ar     1 UNK        0.1330
+      5 C5           21.164278    0.961178   52.867581 C.ar     1 UNK       -0.1500
+      6 C6           22.569245    0.907677   53.200466 C.ar     1 UNK       -0.1500
+      7 C7           23.002569    0.082351   54.142521 C.ar     1 UNK        0.0000
+      8 C8           24.476151    0.003144   54.515824 C.2      1 UNK        0.4100
+      9 N9           25.459061    0.866709   53.813795 N.pl3    1 UNK       -0.6000
+     10 C10          26.914466    0.725597   53.931841 C.ar     1 UNK        0.1000
+     11 C11          27.440547   -0.448639   53.560811 C.ar     1 UNK       -0.1500
+     12 C12          28.873832   -0.684855   53.641235 C.ar     1 UNK       -0.1500
+     13 C13          29.692354    0.261542   54.085389 C.ar     1 UNK       -0.1500
+     14 C14          29.188376    1.557902   54.503998 C.ar     1 UNK       -0.1500
+     15 C15          27.864549    1.810475   54.442360 C.ar     1 UNK       -0.1500
+     16 N16          24.795595   -0.822282   55.435335 N.2      1 UNK       -0.6200
+     17 C17          23.789887   -1.681015   56.127932 C.2      1 UNK        0.4700
+     18 N18          22.547456   -1.627329   55.826817 N.2      1 UNK       -0.6200
+     19 C19          22.024233   -0.773266   54.837183 C.ar     1 UNK        0.3100
+     20 C20          20.700861   -0.722328   54.522920 C.ar     1 UNK       -0.1500
+     21 H1           20.843414    1.599520   52.141714 H        1 UNK        0.1500
+     22 H2           23.227993    1.522344   52.692715 H        1 UNK        0.1500
+     23 H3           25.095823    1.626312   53.193755 H        1 UNK        0.4000
+     24 H4           26.814688   -1.228761   53.200349 H        1 UNK        0.1500
+     25 H5           29.271284   -1.626986   53.340647 H        1 UNK        0.1500
+     26 H6           30.714143    0.071938   54.134915 H        1 UNK        0.1500
+     27 H7           29.915180    2.307797   54.865107 H        1 UNK        0.1500
+     28 H8           27.492355    2.767706   54.751451 H        1 UNK        0.1500
+     29 H9           24.107407   -2.376534   56.912377 H        1 UNK        0.1500
+     30 H10          19.981779   -1.334079   55.015758 H        1 UNK        0.1500
+     31 ?31          17.123241   -0.151541   53.266947 ?        1 UNK        0.0000
+     32 ?32          18.357538   -0.850051   54.261258 ?        1 UNK        0.0000
+     33 ?33          25.756443   -0.896527   55.702219 ?        1 UNK        0.0000
+     34 ?34          21.914382   -2.223647   56.320521 ?        1 UNK        0.0000
+@<TRIPOS>BOND
+     1    1    2 1
+     2    2    3 2
+     3    2    4 1
+     4    4    5 ar
+     5    5    6 ar
+     6    6    7 ar
+     7    7    8 1
+     8    8    9 1
+     9    9   10 1
+    10   10   11 ar
+    11   11   12 ar
+    12   12   13 ar
+    13   13   14 ar
+    14   14   15 ar
+    15   10   15 ar
+    16    8   16 2
+    17   16   17 1
+    18   17   18 2
+    19   18   19 1
+    20    7   19 ar
+    21   19   20 ar
+    22    4   20 ar
+    23    5   21 1
+    24    6   22 1
+    25    9   23 1
+    26   11   24 1
+    27   12   25 1
+    28   13   26 1
+    29   14   27 1
+    30   15   28 1
+    31   17   29 1
+    32   20   30 1
+    33    3   31 1
+    34    3   32 1
+    35   16   33 1
+    36   18   34 1
+@<TRIPOS>SUBSTRUCTURE
+1 UNK 1 RESIDUE 1 _ UNK
+@<SCITEGIC>MOL_PROPERTY
+TRIPOS_COMMENT
+SciTegic.value.StringValue
+> <Gold.Version>
+5.3.0
+> <Gold.Id.Protein>
+1M17_traj_1ns_WTavg_model_1|1M17_traj_1ns_WTavg_5Awater_forGold_Pro|mol2
+> <Gold.Protein.ActiveResidues>
+LEU718  ALA743  CYS775  THR790  GLN791  LEU792  MET793  PRO794  GLY796  LEU844
+THR854
+> <Gold.Score>
+Fitness  S(hb_ext) S(vdw_ext)  S(hb_int)    S(int)      intcor
+46.79       1.77      34.96       0.00      -3.05      -9.45
+> <Gold.Goldscore.Fitness>
+46.7862
+> <Gold.Goldscore.Internal.Vdw>
+-6.1990
+> <Gold.Goldscore.Internal.Torsion>
+-6.3038
+> <Gold.Goldscore.External.Vdw>
+34.9590
+> <Gold.Goldscore.Internal.HBond>
+0.0000
+> <Gold.Goldscore.External.HBond>
+1.7704
+> <Gold.Goldscore.Internal.Correction>
+-9.4499
+> <Gold.Goldscore.Reference.RMSD>
+7.1673
+> <Gold.Goldscore.Hbonds>
+donor molecule, donor type, donor heavy atom, donor atom, acceptor molecule, acceptor atom, score
+P1  H  1548  1549       L1    18  0.89
+> <Gold.Goldscore.Internal.Vdw.Weighted>
+-6.1990
+> <Gold.Goldscore.Internal.Torsion.Weighted>
+-6.3038
+> <Gold.Goldscore.External.Vdw.Weighted>
+48.0686
+> <Gold.Goldscore.Internal.HBond.Weighted>
+0.0000
+> <Gold.Goldscore.External.HBond.Weighted>
+1.7704
+> <Gold.Goldscore.Internal.Correction.Weighted>
+-9.4499
+> <Gold.Reference.RMSD>
+7.1673
+
+@<SCITEGIC>MOL_PROPERTY
+REMARK99
+SciTegic.value.StringValue
+REMARK  99  MacroMolecule created from Mol2 file
+REMARK  99  CHEMBL91914|CHEMBL91914|mol2|1|dock1
+REMARK  99  PROTEIN
+REMARK  99  USER_CHARGES
+REMARK  99  
+REMARK  99  
+
+@<SCITEGIC>ATOM_PROPERTY
+Formal Charge
+SciTegic.value.StringValue
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+
+@<SCITEGIC>ATOM_PROPERTY
+pdb_tempFactor
+SciTegic.value.DoubleValue
+1 0.00
+2 0.00
+3 0.00
+4 0.00
+5 0.00
+6 0.00
+7 0.00
+8 0.00
+9 0.00
+10 0.00
+11 0.00
+12 0.00
+13 0.00
+14 0.00
+15 0.00
+16 0.00
+17 0.00
+18 0.00
+19 0.00
+20 0.00
+21 0.00
+22 0.00
+23 0.00
+24 0.00
+25 0.00
+26 0.00
+27 0.00
+28 0.00
+29 0.00
+30 0.00
+31 0.00
+32 0.00
+33 0.00
+34 0.00
+
+@<SCITEGIC>ATOM_PROPERTY
+pdb_occupancy
+SciTegic.value.DoubleValue
+1 1.00
+2 1.00
+3 1.00
+4 1.00
+5 1.00
+6 1.00
+7 1.00
+8 1.00
+9 1.00
+10 1.00
+11 1.00
+12 1.00
+13 1.00
+14 1.00
+15 1.00
+16 1.00
+17 1.00
+18 1.00
+19 1.00
+20 1.00
+21 1.00
+22 1.00
+23 1.00
+24 1.00
+25 1.00
+26 1.00
+27 1.00
+28 1.00
+29 1.00
+30 1.00
+31 1.00
+32 1.00
+33 1.00
+34 1.00
+

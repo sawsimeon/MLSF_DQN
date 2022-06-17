@@ -1,0 +1,280 @@
+#	Created by:	Discovery Studio
+#	Creation time:	2018-10-03T20:34:46Z
+
+@<TRIPOS>MOLECULE
+CHEMBL2333986|CHEMBL2333986|mol2|1|dock2
+   39    41     1 0 0
+PROTEIN
+USER_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1           18.210764   -0.727648   53.409385 C.3      1 UNK        0.2800
+      2 O2           19.038617    0.072845   52.492397 O.3      1 UNK       -0.3625
+      3 C3           20.194307    0.132250   53.576443 C.2      1 UNK        0.0825
+      4 C4           20.796072   -0.716571   54.368401 C.2      1 UNK       -0.1500
+      5 C5           22.082933   -0.753828   54.573645 C.ar     1 UNK        0.3100
+      6 N6           22.440868   -1.654919   55.366191 N.ar     1 UNK       -0.6200
+      7 C7           23.687346   -1.805175   55.681984 C.ar     1 UNK        0.4700
+      8 N8           24.551121   -1.009657   55.218194 N.ar     1 UNK       -0.6200
+      9 C9           24.268101    0.085230   54.322135 C.ar     1 UNK        0.4100
+     10 N10          25.498673    0.834560   54.004789 N.pl3    1 UNK       -0.6000
+     11 C11          26.949892    0.522799   54.150438 C.ar     1 UNK        0.1000
+     12 C12          27.553324   -0.641787   53.821167 C.ar     1 UNK       -0.1500
+     13 C13          29.050129   -0.842031   53.993701 C.ar     1 UNK       -0.1500
+     14 C14          29.770279    0.177700   54.466948 C.ar     1 UNK       -0.1500
+     15 C15          29.142750    1.464533   54.811941 C.ar     1 UNK       -0.1500
+     16 C16          27.843446    1.658782   54.677697 C.ar     1 UNK       -0.1435
+     17 C17          27.315213    3.083842   55.057894 C.3      1 UNK        1.1635
+     18 F18          28.068298    3.511068   56.088392 F        1 UNK       -0.3400
+     19 F19          27.405871    3.889000   53.904092 F        1 UNK       -0.3400
+     20 F20          26.040042    2.910789   55.475062 F        1 UNK       -0.3400
+     21 C21          22.966046    0.207873   53.949206 C.ar     1 UNK        0.0000
+     22 C22          22.318231    1.201646   52.966498 C.2      1 UNK       -0.1500
+     23 C23          20.986212    1.228891   52.735288 C.2      1 UNK        0.0825
+     24 O24          20.544135    2.347362   51.676386 O.3      1 UNK       -0.3625
+     25 C25          21.366306    3.269952   50.861534 C.3      1 UNK        0.2800
+     26 H1           18.165178   -0.688617   54.506678 H        1 UNK        0.0000
+     27 H2           18.555064   -1.719496   53.099963 H        1 UNK        0.0000
+     28 H3           17.213767   -0.522919   52.999128 H        1 UNK        0.0000
+     29 H4           20.203833   -1.424262   54.894787 H        1 UNK        0.1500
+     30 H5           23.997657   -2.579013   56.331980 H        1 UNK        0.1500
+     31 H6           25.290752    1.755122   53.486467 H        1 UNK        0.4000
+     32 H7           26.997980   -1.407744   53.439687 H        1 UNK        0.1500
+     33 H8           29.579092   -1.851181   53.722433 H        1 UNK        0.1500
+     34 H9           30.792454    0.070987   54.589948 H        1 UNK        0.1500
+     35 H10          29.729722    2.269840   55.171805 H        1 UNK        0.1500
+     36 H11          22.900955    1.863297   52.456582 H        1 UNK        0.1500
+     37 H12          20.706707    3.873438   50.221832 H        1 UNK        0.0000
+     38 H13          22.052366    2.691499   50.228641 H        1 UNK        0.0000
+     39 H14          21.938836    3.935408   51.522234 H        1 UNK        0.0000
+@<TRIPOS>BOND
+     1    1    2 1
+     2    2    3 1
+     3    3    4 2
+     4    4    5 1
+     5    5    6 ar
+     6    6    7 ar
+     7    7    8 ar
+     8    8    9 ar
+     9    9   10 1
+    10   10   11 1
+    11   11   12 ar
+    12   12   13 ar
+    13   13   14 ar
+    14   14   15 ar
+    15   15   16 ar
+    16   11   16 ar
+    17   16   17 1
+    18   17   18 1
+    19   17   19 1
+    20   17   20 1
+    21    9   21 ar
+    22    5   21 ar
+    23   21   22 1
+    24   22   23 2
+    25    3   23 1
+    26   23   24 1
+    27   24   25 1
+    28    1   26 1
+    29    1   27 1
+    30    1   28 1
+    31    4   29 1
+    32    7   30 1
+    33   10   31 1
+    34   12   32 1
+    35   13   33 1
+    36   14   34 1
+    37   15   35 1
+    38   22   36 1
+    39   25   37 1
+    40   25   38 1
+    41   25   39 1
+@<TRIPOS>SUBSTRUCTURE
+1 UNK 1 RESIDUE 1 _ UNK
+@<SCITEGIC>MOL_PROPERTY
+TRIPOS_COMMENT
+SciTegic.value.StringValue
+> <Gold.Version>
+5.3.0
+> <Gold.Id.Protein>
+1M17_traj_1ns_WTavg_model_1|1M17_traj_1ns_WTavg_5Awater_forGold_Pro|mol2
+> <Gold.Protein.ActiveResidues>
+LEU718  ALA743  CYS775  THR790  GLN791  LEU792  MET793  PRO794  GLY796  LEU844
+THR854
+> <Gold.Score>
+Fitness  S(hb_ext) S(vdw_ext)  S(hb_int)    S(int)      intcor
+57.18       1.89      40.56       0.00      -0.48      -3.06
+> <Gold.Goldscore.Fitness>
+57.1824
+> <Gold.Goldscore.Internal.Vdw>
+0.7618
+> <Gold.Goldscore.Internal.Torsion>
+-4.2977
+> <Gold.Goldscore.External.Vdw>
+40.5597
+> <Gold.Goldscore.Internal.HBond>
+0.0000
+> <Gold.Goldscore.External.HBond>
+1.8882
+> <Gold.Goldscore.Internal.Correction>
+-3.0607
+> <Gold.Goldscore.Reference.RMSD>
+8.3185
+> <Gold.Goldscore.Hbonds>
+donor molecule, donor type, donor heavy atom, donor atom, acceptor molecule, acceptor atom, score
+P1  H  1548  1549       L1     6  0.94
+> <Gold.Goldscore.Internal.Vdw.Weighted>
+0.7618
+> <Gold.Goldscore.Internal.Torsion.Weighted>
+-4.2977
+> <Gold.Goldscore.External.Vdw.Weighted>
+55.7695
+> <Gold.Goldscore.Internal.HBond.Weighted>
+0.0000
+> <Gold.Goldscore.External.HBond.Weighted>
+1.8882
+> <Gold.Goldscore.Internal.Correction.Weighted>
+-3.0607
+> <Gold.Reference.RMSD>
+8.3185
+
+@<SCITEGIC>MOL_PROPERTY
+REMARK99
+SciTegic.value.StringValue
+REMARK  99  MacroMolecule created from Mol2 file
+REMARK  99  CHEMBL2333986|CHEMBL2333986|mol2|1|dock2
+REMARK  99  PROTEIN
+REMARK  99  USER_CHARGES
+REMARK  99  
+REMARK  99  
+
+@<SCITEGIC>ATOM_PROPERTY
+Formal Charge
+SciTegic.value.StringValue
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+
+@<SCITEGIC>ATOM_PROPERTY
+pdb_tempFactor
+SciTegic.value.DoubleValue
+1 0.00
+2 0.00
+3 0.00
+4 0.00
+5 0.00
+6 0.00
+7 0.00
+8 0.00
+9 0.00
+10 0.00
+11 0.00
+12 0.00
+13 0.00
+14 0.00
+15 0.00
+16 0.00
+17 0.00
+18 0.00
+19 0.00
+20 0.00
+21 0.00
+22 0.00
+23 0.00
+24 0.00
+25 0.00
+26 0.00
+27 0.00
+28 0.00
+29 0.00
+30 0.00
+31 0.00
+32 0.00
+33 0.00
+34 0.00
+35 0.00
+36 0.00
+37 0.00
+38 0.00
+39 0.00
+
+@<SCITEGIC>ATOM_PROPERTY
+pdb_occupancy
+SciTegic.value.DoubleValue
+1 1.00
+2 1.00
+3 1.00
+4 1.00
+5 1.00
+6 1.00
+7 1.00
+8 1.00
+9 1.00
+10 1.00
+11 1.00
+12 1.00
+13 1.00
+14 1.00
+15 1.00
+16 1.00
+17 1.00
+18 1.00
+19 1.00
+20 1.00
+21 1.00
+22 1.00
+23 1.00
+24 1.00
+25 1.00
+26 1.00
+27 1.00
+28 1.00
+29 1.00
+30 1.00
+31 1.00
+32 1.00
+33 1.00
+34 1.00
+35 1.00
+36 1.00
+37 1.00
+38 1.00
+39 1.00
+
