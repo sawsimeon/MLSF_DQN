@@ -2,6 +2,7 @@
 
 from msilib import OpenDatabase
 import os, sys, time, fnmatch, tarfile, oddt
+from pyexpat import features
 from glob import glob
 from tqdm import tqdm
 from joblib import Parallel, delayed
@@ -17,21 +18,37 @@ sdf = '/home/simeons/Desktop/MLSF_DQN/script/data/compound/egfr_ligand_library.s
 
 class featurizers:
   def __init__(self, sdf, protein):
-    self.sdf = sdf
-    self.protein = protein
+    self.sdf = opd.read_sdf(sdf)
+    self.protein = next(ob.readfile('mol2', self.protein)
     self.mols = opd.read_sdf(sdf)['mol']
     self.ID = opd.read_sdf(sdf)['mol_name']
     '''
     Calculate Protein Ligand interaction Fingerprint
     '''
-    def plec():
-      receptor = next(ob.readfile('mol2', self.protein))
-      receptor.protein = True
-      features_list = mols.map
-      features_list =  [PLEC(x, protein = receptor, size = 4092, depth_protein = 5, depth_ligand = 1, distance_cutoff = 4.5, sparse = False) for x in mols]
-      features = pd.DataFrame([mol in self.mols])
+    def PLEC(self):
+      features =  pd.DataFrame([PLEC(x, protein = self.protein.protein = True, size = 4092, depth_protein = 5, depth_ligand = 1, distance_cutoff = 4.5, sparse = False) for x in mols])
+      features.insert(1, "ChEMBLID", list(self.ID))
+      return features
 
-      rec
-    receptor = next(ob.readfile('mol2', self.protein))
-    receptor.protein = True
-    sdf = opd.read_sdf(se)
+    '''
+    Calculate Interaction Fingerprint
+    '''
+    def IF(self):
+      features = pd.DataFrame([InteractionFingerprint(x, protein = self.protein.protein = True)])
+      features.insert(1, 'ChEMBL', self.ID)
+      return features
+    
+    '''
+    Calculate Simple interaction Fingerprint 
+    http://dx.doi.org/10.1016/j.csbj.2014.05.004
+    '''
+    def SFP(self):
+      feautres = pd.DataFrame([SimpleinteractionFingerprint(x, protein = self.protein.protein = True)])
+      features.insert(1,, 'ChEMBLID', list(self.ID))
+      return features
+    '''
+    Calculate Binina Features 
+    '''
+    def BININA(self):
+      binina_engine = binana.binana_descriptor(self.protein.protein = True)
+      features = pd.DataFrame({name: value for name, value in zip(binana_engine.titles, binana_engine.build([x])[0])}, )
