@@ -1,4 +1,4 @@
-# De novo molecular generation using MLSF (PDL1)
+## De novo molecular generation using MLSF (PDL1)
 
 The process of developing potent and selective inhibitors involves a complex interactive procedure of structure based design. Structure based design (SBD) involves a structurallly driven, iterative iteration to a molecule to increase its potency by tuning the fine balance between attractive adn repulsive interaction. An ability to effectively understand and predict these subtleties is one of the challenges in SBD. It will allow the 3D crystallographic coordinates to be used in more quantitative fashion to guid the strucural modification of a lead series. 
 
