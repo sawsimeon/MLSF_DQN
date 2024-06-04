@@ -35,6 +35,7 @@ entrypoints=0.3=pyhd8ed1ab_1003
 expat=2.2.10=h9c3ff4c_0
 fontconfig=2.13.1=hba837de_1004
 freetype=2.10.4=h0708190_1
+
 future=0.18.2=pypi_0
 gast=0.4.0=py_0
 gettext=0.19.8.1=h0b5b191_1005
